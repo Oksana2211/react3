@@ -1,0 +1,13 @@
+
+.App {
+  margin-top: 5%;
+  font-size: 1.7rem;
+  padding-left: 20%;
+  padding-right: 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 3vw;
+}
+
+
