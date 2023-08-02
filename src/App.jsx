@@ -1,4 +1,5 @@
 import Cards from "./components/RatesCards/RatesCards";
+import st from "./styles/index.css"
 
 
 const rates = [
@@ -39,7 +40,7 @@ const rates = [
   function App() {
     return(
       <div>
-        <h1>Карточки с тарифами</h1>
+        <h1 className={st.header}>Карточки с тарифами</h1>
         <Cards arr = {rates}/>
       </div>
     )
