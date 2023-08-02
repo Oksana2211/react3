@@ -39,6 +39,7 @@ const rates = [
   function App() {
     return(
       <div>
+        <h1>Карточки с тарифами</h1>
         <Cards arr = {rates}/>
       </div>
     )

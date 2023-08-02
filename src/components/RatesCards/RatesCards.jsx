@@ -5,9 +5,9 @@ import st from './slyle.module.scss'
 export default function Cards(props) {
 // console.log(props)
   return (
-    <div className={st.card}>
-  {props.arr.map((name,price,speed,info,id) =>(
-  <Item name={name} price={price} speed={speed} info={info} key={id}/>))}
+    <div className={st.cards}>
+  {props.arr.map((item, index) =>(
+  <Item item={item} key={index}/>))}
     </div>
   );
 }
