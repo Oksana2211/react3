@@ -1,19 +1,55 @@
 .card{
-border: 1px solid rgb(20, 8, 63);
-color: rgb(25, 12, 61);
+border: 1px solid rgb(216, 215, 215);
+color: rgb(255, 255, 255);
+width: 17vw;
 }
 .name{
-color: #407745;
+font-size: 1.9rem;
+font-weight: 400;
+margin: 0;
+padding: 7% 0 7% 0;
+border-bottom: 1px solid rgb(216, 215, 215);
 }
-
 .price {
-color: #cc3b3b;
+font-size: 2.1rem;
+margin: 0;
+font-weight: 200;
+padding: 6% 0 7% 0;
 }
-
 .speed{
-color: #ac2b96;
+font-size: 1.3rem;
+color: rgb(43, 42, 42);
+padding: 2% 0 2% 0;
+font-weight: 400;
+margin: 0;
+background-color: rgb(240, 240, 239);
 }
-
 .info{
-color: #998323;
+color: rgb(43, 42, 42);
+background-color: rgb(240, 240, 239);
+font-size: 1.1rem;
+font-weight: 450;
+margin: 0;
+padding: 5% 0 7% 0;
+}
+.blue{
+background-color: rgb(91, 91, 155);
+margin: 0;
+min-height: 7vw;
+
+}
+.green{
+background-color: rgb(116, 180, 116);
+margin: 0;
+min-height: 7vw;
+}
+.red{
+background-color: rgb(211, 139, 139);
+margin: 0;
+min-height: 7vw;
+}
+.black{
+background-color: rgb(49, 48, 48);
+margin: 0;
+min-height: 7vw;
 }

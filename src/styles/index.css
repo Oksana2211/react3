@@ -13,6 +13,12 @@ code {
 }
 
 .header{
-  font-size: 1.7rem;
+  font-size: 2rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  background-color: rgb(211, 211, 208);
   text-align: center;
+  margin:5% 2% 5% 2%;
+  
+  
 }
