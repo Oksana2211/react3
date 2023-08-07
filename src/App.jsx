@@ -17,7 +17,7 @@ const rates = [
       speed: "до 50 Мбит/сек",
       info: "Обьем включенного трафика не ограничен",
       color: "green",
-      flag : true,
+      flag : false,
     },
     {
       name: "Безлимитный 550",
@@ -25,7 +25,7 @@ const rates = [
       speed: "до 100 Мбит/сек",
       info: "Обьем включенного трафика не ограничен",
       color: "red",
-      flag : false,
+      flag : true,
     },
     {
       name: "Безлимитный 1000",
