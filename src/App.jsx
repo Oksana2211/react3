@@ -1,4 +1,4 @@
-import Cards from "./components/RatesCards/RatesCards";
+import RatesCards from "./components/RatesCards/RatesCards";
 import st from "./styles/index.css"
 
 
@@ -41,7 +41,7 @@ const rates = [
     return(
       <div>
         <h1 className={st.header}>Карточки с тарифами</h1>
-        <Cards arr = {rates}/>
+        <RatesCards arr = {rates}/>
       </div>
     )
   }
