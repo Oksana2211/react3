@@ -4,7 +4,7 @@ import { useState } from "react";
 
 
 export default function Item(props) {
-  console.log(props.item.flag);
+  // console.log(props.item.flag);
 
 
 const [item,setItem] = useState(props.item.flag)
@@ -23,8 +23,6 @@ const [item,setItem] = useState(props.item.flag)
     <div ><h3 className={st.speed}>{props.item.speed}</h3></div>
     <div ><h3 className={st.info}>{props.item.info}</h3></div>
     </section>}
-    
-    
     </>
   )
 }
